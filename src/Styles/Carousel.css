@@ -1,0 +1,81 @@
+.carousel {
+    position: relative;
+    height: 415px;
+    width: 100%;
+    margin-top: 30px;
+    }
+
+.carousel p {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 340px;
+    text-align: center;
+    text-shadow: 0px 0px 5px black;
+}
+
+.ImageSlider {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 24px #b3b1b1;
+}
+
+.carousel button {
+    border: none;
+    background-color: transparent;
+    display: hidden;
+    color: #fff;
+}
+
+.previous_slide {
+    position: absolute;
+    content: "";
+    color: #fff;
+    inset: 0;
+    top: 40%;
+    cursor: pointer;
+    left: 0;
+}
+
+.next_slide {
+    position: absolute;
+    content: "";
+    inset: 0;
+    top: 40%;
+    cursor: pointer;
+    left: calc(100% - 50px);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .SlideCount {
+        display: none;
+    }
+
+    .previous_slide { 
+        height: 24px; 
+        top:116px;
+        
+    }
+    .next_slide{
+        height: 24px;
+        left: 311px;
+        top :116px
+        
+    }
+
+    .carousel p { 
+        top: 70% 
+    }
+   .ImageSlider {
+      height: 255px;
+      width: 335px;
+   }
+}
