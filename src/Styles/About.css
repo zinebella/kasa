@@ -1,0 +1,29 @@
+.about_image {
+    position: relative;
+    background-position: center;
+    max-width: 100%;
+    height: 223px;
+    margin-top: 30px;
+    background-image: url("../Assets/Banner/aboutBanner.png");
+    display: grid;
+    margin: auto;
+    place-items: center;
+    border-radius: 1rem;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.about_container{
+    padding-inline: 6rem;
+    margin-bottom: 5rem;
+}
+
+/* Mobile */
+@media only screen and (width <= 768px) {
+    .about_image{
+        background-image: url("../Assets/Banner/backgroundbannermobile.png");
+    }
+    .about_container {
+          padding-inline: 0;
+    }
+}

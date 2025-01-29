@@ -1,0 +1,57 @@
+
+.error {
+    color: #FF6060;
+}
+
+.error_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin:22px 22px;
+}
+
+.error span {
+    font-size: 288px;
+    font-weight: 700;
+    margin:0;
+}
+
+.error h4 {
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0;
+}
+
+.error a {
+    color: #FF6060;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.error p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 7rem ;
+}
+
+/* Mobile */
+@media only screen and (width <= 480px) {
+    
+    .error span { font-size: 6rem;  
+                  margin: 12rem 0 1rem 0;
+
+                }
+    .error h4   { font-size: 18px; 
+                    
+                }
+    .error a {    font-size: 14px; }
+
+}
+
+
+
+
+
+    
+    
