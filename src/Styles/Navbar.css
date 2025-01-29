@@ -27,6 +27,7 @@
 
 @media only screen and (width <= 768px) {
     .navbar {
+        
           gap: 0;
           
     }
