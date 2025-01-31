@@ -1,21 +1,19 @@
-.navbar{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    gap: 2rem;
-    font-weight: 400;
-    min-width: 20%;
-    margin-right: 2px;
-    font-style: normal;
+.navbar{ 
+    display: flex;
+    gap:50px;
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    padding-right: 7%;
+    
 }
 
-.navbar a {
+
+.navbar_navLink_home,.navbar_navLink_about{
     text-decoration: none;
     color: #ff6060;
+    padding-left: 0.8rem;
+    
 }
+
 
 .navbar a:hover {
     text-decoration: underline;
@@ -25,16 +23,17 @@
     text-decoration: underline;
 }
 
-@media only screen and (width <= 768px) {
+@media only screen and (width <= 480px) {
     .navbar {
-        
-          gap: 0;
-          
+    
+          gap:20px;
     }
-    .navbar a {
+
+    .navbar_navLink_home,.navbar_navLink_about{
           text-transform: uppercase;
           font-size: 12px;
           font-weight: 500;
+          padding-left: 0.8rem;
         
     }
 }
