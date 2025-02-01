@@ -52,9 +52,9 @@
 /*Responsive*/
 
 @media screen and (max-width:480px) {
-  .card{
+  /*.card{
     width:100%;
-  }
+  }*/
   .cards {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     padding: 0;

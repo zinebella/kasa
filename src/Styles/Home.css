@@ -13,3 +13,9 @@ html {
           padding-inline: 0;
     }
 }
+@media only scree and (width<= 480px) {
+   .home {
+     
+      max-width: 100%;
+    }
+}

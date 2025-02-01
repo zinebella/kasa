@@ -1,8 +1,13 @@
 .main{
     color: #FF6060;
     font-family: "Montserrat", sans-serif;
-    max-width: 1240px;
     margin:0 auto;
     padding: 2rem 5rem;
     
 }
+ @media screen and (width<=480px){
+    .main{ 
+       margin: 10px;
+       padding: 10px;
+    }
+ }

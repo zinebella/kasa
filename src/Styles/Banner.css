@@ -1,7 +1,6 @@
 .banner {
-  
-      background-image: url("../Assets/Banner/homeBanner.png");
       position: relative;
+      background-image: url("../Assets/Banner/homeBanner.png");
       background-position: center;
       height: 223px;
       display: grid;
@@ -36,10 +35,17 @@
 /* Mobile */
 @media only screen and (width <= 768px) {
     .banner{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        place-items: flex-start;
         height: 140px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .banner_text{
+        display: flex;
+        font-size: 24px;
+        width: 60%;
+        left: 10px;
     }
 
     
@@ -47,8 +53,11 @@
 
 @media only screen and (width <= 480px) {
     .banner {
-         
+          border-radius: 10px;
           height: 111px;
+    }
+    .banner::before{
+         border-radius: 10px;
     }
     .banner_text {
           font-size: 24px;

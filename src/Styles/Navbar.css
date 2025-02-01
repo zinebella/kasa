@@ -1,8 +1,11 @@
 .navbar{ 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
     gap:50px;
     font-size: 24px;
-    padding-right: 7%;
+    padding-right: 5%;
     
 }
 
@@ -10,7 +13,7 @@
 .navbar_navLink_home,.navbar_navLink_about{
     text-decoration: none;
     color: #ff6060;
-    padding-left: 0.8rem;
+    
     
 }
 
@@ -33,7 +36,7 @@
           text-transform: uppercase;
           font-size: 12px;
           font-weight: 500;
-          padding-left: 0.8rem;
+         
         
     }
 }
