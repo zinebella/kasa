@@ -53,29 +53,26 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (width<=768px) {
 
+    .carousel{
+        height: 255px;
+    }
     .SlideCount {
         display: none;
     }
 
     .previous_slide { 
-        height: 24px; 
-        top:116px;
+        height: 30px; 
         
     }
     .next_slide{
-        height: 24px;
-        left: 311px;
-        top :116px
+        height: 30px;
+        left: calc(100% - 20px)
         
     }
-
     .carousel p { 
         top: 70% 
     }
-   .ImageSlider {
-      height: 255px;
-      width: 335px;
-   }
+  
 }
