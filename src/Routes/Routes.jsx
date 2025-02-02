@@ -11,11 +11,12 @@ import Main from "../Layout/Main";
 
 const Layout = () => {
   return<>
-         <Header/>
-         <Main>
-            <Outlet/>
-         </Main>
-         <Footer/>
+          <Main>
+          <Header/>
+                <Outlet/>
+          <Footer/>
+          </Main>
+         
   </>
 };
 
