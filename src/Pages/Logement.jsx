@@ -18,6 +18,9 @@ import "../Styles/Logement.css";
     // cherche l'id dans le fichier logements.json
     const data = datas.find(element => element.id === idLogement)
 
+    // récupérer le nom 
+	  const name = data.host.name.split(' ');
+
     // si l'URL à été modifié manuellement, redirection vers la page d'erreur
     if (!data) return(<ErrorPage />)
 
@@ -50,7 +53,10 @@ import "../Styles/Logement.css";
             
                 <div className="logement_owner">
                     <div className="logement_owner_details">
-                      <h3>{data.host.name}</h3>
+                      <div className="logement_owner_name">
+                          <span>{name[0]}</span>
+								          <span>{name[1]}</span>
+                      </div>
                       <img src={data.host.picture} alt={data.title} />
                     </div>
              {/* 3 - les étoiles */}
