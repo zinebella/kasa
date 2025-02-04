@@ -58,9 +58,7 @@
     .carousel{
         height: 255px;
     }
-    .SlideCount {
-        display: none;
-    }
+    
 
     .previous_slide { 
         height: 30px; 
@@ -71,8 +69,12 @@
         left: calc(100% - 20px)
         
     }
-    .carousel p { 
-        top: 70% 
-    }
+   .carousel p{
+    margin-top: 200px;
+
+   }
+   .Count p{
+    font-size: 12px;
+   }
   
 }

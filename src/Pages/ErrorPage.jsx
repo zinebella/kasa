@@ -1,12 +1,14 @@
 import React, {Fragment} from "react";
 import Main from "../Layout/Main";
 import { Link } from "react-router-dom";
+import Header from "../Layout/Header";
 import "../Styles/ErrorPage.css";
 
 
 function ErrorPage() {
     return (
 		<Fragment>
+			<Header/>
 			<Main>
 			
 			<div className=" error error_page">

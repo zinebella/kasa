@@ -3,7 +3,6 @@ import { useSearchParams } from "react-router-dom";
 import ErrorPage from "../Pages/ErrorPage";
 import Collapse from"../Compenents/Collapse";
 import Carousel from "../Compenents/Carousel";
-import Main from "../Layout/Main";
 import datas from "../Data/data.json";
 import "../Styles/Logement.css";
 
@@ -31,7 +30,7 @@ import "../Styles/Logement.css";
 
     return(
     <div className="logement">
-      <Main>
+      
              
             {/* carousel d'images */}
               <Carousel pictures={data.pictures}/>
@@ -78,7 +77,7 @@ import "../Styles/Logement.css";
               </div>
               
               
-      </Main>
+      
              
     
     </div>

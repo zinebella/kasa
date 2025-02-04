@@ -39,7 +39,7 @@
 @media only screen and (width <= 480px) {
     
     .error span { font-size: 6rem;  
-                  margin: 12rem 0 1rem 0;
+                  margin: 8rem 0 1rem 0;
 
                 }
     .error h4   { font-size: 18px; 
