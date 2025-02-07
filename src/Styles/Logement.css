@@ -1,6 +1,7 @@
 .logement{
     margin:1rem;
 }
+
 .ficheLogement{
     display: flex;
     margin-bottom: 1rem;
@@ -45,6 +46,7 @@
     gap: 1rem;    
     font-weight: 500;
 }
+
 .logement_owner_details span {
     display: flex;
     flex-direction: column;
@@ -66,10 +68,12 @@
     font-size: 2rem;
     color: rgb(220, 220, 220);
 }
+
 .span1{
     color: #ff6060;
     text-shadow: 0px 0px 5px rgb(180, 166, 166);
 }
+
 .span2{
     color: #e3e3e3;
 }
@@ -85,6 +89,7 @@
     padding: 0.2em 1em;
     border-radius: 0.5rem;
 }
+
 .collapseLogement {
     display: flex;
     gap: 2rem;
@@ -92,36 +97,36 @@
     width:100%;
 }
 
-
-
 /*responsive*/
 
 @media  only screen and (max-width<= 768px) {
     .ficheLogement,.collapseLogement{
         display: block;
     }
+
     .description{
         margin-bottom: 30px;
     }
+
     .logement_owner{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
     }
+
     .logement_owner_stars{
         align-items: center;
         justify-content: left;
     }
-    .logement_tags p{
+
+    .logement_tags p {
         font-size: 10px;
     }
-    .logement_tags{
+
+    .logement_tags {
         gap:10px;
     }
-   
 }
-
-
 
 /*Mobile*/
 @media only screen and (width <= 480px){
@@ -134,15 +139,15 @@
         padding-bottom: 0.3rem;
         
     }
-    .ficheLogement_content h4{
+    .ficheLogement_content h4 {
         font-size:14px;
     }
 
-    .logement_tags{
+    .logement_tags {
         margin-right: 10px;
     }
 
-    .logement_tags p{
+    .logement_tags p {
         gap:0;
         font-size: 10px;
     }
@@ -151,14 +156,14 @@
         font-size: 18px;
     }
 
-    .logement_owner{
+    .logement_owner {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;  
     }
 
-    .logement_owner_details{
+    .logement_owner_details {
         display:flex;
         align-items: center;
         margin:0;
@@ -176,10 +181,7 @@
     .collapseLogement{
         display: flex;
         flex-direction: column;
-    }
-    
-   
-      
+    }     
 }
     
    

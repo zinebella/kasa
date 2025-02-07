@@ -9,8 +9,6 @@
       color: white;
       border-radius: 25px;
       background-size: cover;
-      
-    
 }
 
 .banner::before {
@@ -23,7 +21,6 @@
 }
 
 .banner_text {
-    
     position: relative;
     font-style: normal;
     font-size: 48px;
@@ -38,17 +35,15 @@
         place-items: flex-start;
         height: 140px;
         display: flex;
-        align-items: center;
-        
+        align-items: center;    
     }
+
     .banner_text{
         display: flex;
         font-size: 24px;
         width: 60%;
         left: 10px;
     }
-
-    
 }
 
 @media only screen and (width <= 480px) {
@@ -56,12 +51,13 @@
           border-radius: 10px;
           height: 111px;
     }
+
     .banner::before{
          border-radius: 10px;
     }
+
     .banner_text {
-          font-size: 24px;
-        
+          font-size: 24px;   
     }
 }
 

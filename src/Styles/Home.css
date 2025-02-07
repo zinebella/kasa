@@ -10,12 +10,11 @@ html {
 /* Mobile */
 @media only screen and (width <= 768px) {
     .home {
-          padding-inline: 0;
+        padding-inline: 0;
     }
 }
 @media only scree and (width<= 480px) {
    .home {
-     
-      max-width: 100%;
+        max-width: 100%;
     }
 }

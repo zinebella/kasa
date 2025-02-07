@@ -3,7 +3,7 @@
     height: 415px;
     width: 100%;
     margin-top: 30px;
-    }
+}
 
 .carousel p {
     position: relative;
@@ -55,26 +55,26 @@
 
 @media only screen and (width<=768px) {
 
-    .carousel{
+    .carousel {
         height: 255px;
     }
     
 
     .previous_slide { 
         height: 30px; 
-        
     }
-    .next_slide{
+    
+    .next_slide {
         height: 30px;
-        left: calc(100% - 20px)
-        
+        left: calc(100% - 20px)        
     }
-   .carousel p{
-    margin-top: 200px;
+   
+    .carousel p {
+        margin-top: 200px;
 
-   }
-   .Count p{
-    font-size: 12px;
-   }
-  
+    }
+
+    .Count p {
+       font-size: 12px;
+    }
 }

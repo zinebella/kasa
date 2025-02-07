@@ -66,6 +66,7 @@
         padding: 23px 7px 5px 11.5px; 
     }
 }
+
 @media screen  and (width <= 480px){
     .collapse_header{
         height: 30px;
