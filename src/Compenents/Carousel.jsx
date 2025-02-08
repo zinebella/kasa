@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import chevronGauche from "../Assets/ChevronGauche.png";
 import chevronDroit from "../Assets/ChevronDroit.png";
 import "../Styles/Carousel.css";
@@ -13,7 +13,7 @@ function Carousel({pictures}) { //reçois un tableau avec les URL des images
     if (index > totalPictures) setIndex(0)  // si supérieur au max d'images, alors met à zéro
     
     return(
-        <div className="carousel">
+        <section className="carousel">
 
             {/* affiche la première image */}
             <div className="imageCarrousel">  
@@ -39,7 +39,7 @@ function Carousel({pictures}) { //reçois un tableau avec les URL des images
                     </p>
                 </div>
             )}
-        </div>
+        </section>
     )
 }
 
