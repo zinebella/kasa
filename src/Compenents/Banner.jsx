@@ -4,7 +4,7 @@ import '../Styles/Banner.css';
 function Banner() {
   return (
     <div className="banner">
-      <h2 className='banner_text'>Chez vous, partout et ailleurs</h2>
+      <h2 className="banner_text">Chez vous, partout et ailleurs</h2>
     </div>
   )
 }
