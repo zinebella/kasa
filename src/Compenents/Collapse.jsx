@@ -28,12 +28,9 @@ function Collapse({title, content}){
       {/* affiche le contenu */}
       <div className={collapseContent}>
         <ul>{content}</ul>
-
       </div>
 
     </div>
-    
-
   )
 }
 export default Collapse
