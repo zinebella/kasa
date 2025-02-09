@@ -8,9 +8,9 @@ import Header from "../Layout/Header";
 import Footer from "../Layout/Footer";
 import Main from "../Layout/Main";
 
-
+//Definition du composant fonctionnel Layout 
 const Layout = () => {
-  return<>
+  return <>
           <Main>
           <Header/>
                 <Outlet/>
