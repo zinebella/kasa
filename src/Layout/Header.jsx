@@ -12,7 +12,7 @@ import "../Styles/Header.css";
       { to: "/", label: "Accueil" },
       { to: "/about", label: "A Propos" },
     ];
-   // défini la choix actif et affiche le label du menu
+   // défini le choix actif et affiche le label du menu
     const menuItem = ({ to, label }) => (
     <li key={to}>
       <NavLink to={to} style={({ isActive }) => isActive ? isActiveStyle : undefined }>
