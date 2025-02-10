@@ -128,7 +128,7 @@
     }
 }
 
-/*Mobile*/
+
 @media only screen and (width <= 480px){
     .ficheLogement{
         display: flex;
