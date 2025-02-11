@@ -97,21 +97,37 @@
     width:100%;
 }
 
-/*responsive*/
+/*tablette*/
 
-@media  only screen and (max-width<= 768px) {
-    .ficheLogement,.collapseLogement{
-        display: block;
+@media  screen and (width <= 768px) {
+   
+   .ficheLogement{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
+    .ficheLogement_content h1{
+        font-size: 28px;
+    }
+    .ficheLogement_content h4{
+        font-size: 16px;
+    }
     .description{
         margin-bottom: 30px;
     }
-
+   
     .logement_owner{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+        align-items: center;
+    }
+
+    .logement_owner_details {
+        display:flex;
+        align-items: center;
+        margin:0;
     }
 
     .logement_owner_stars{
@@ -120,7 +136,7 @@
     }
 
     .logement_tags p {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .logement_tags {
@@ -128,7 +144,7 @@
     }
 }
 
-
+/*mobile*/
 @media only screen and (width <= 480px){
     .ficheLogement{
         display: flex;

@@ -48,7 +48,6 @@
     cursor: pointer;
 }
 
-/*tablette*/
 @media screen and (min-width:769px) and (max-width:1024px){
   .cards{
   display: grid;
@@ -56,15 +55,14 @@
 }
 }
 
-/*Version Mobile*/
-@media screen and (max-width:768px) {
+@media screen and (width<=768px) {
   .cards{
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   
 }
 }
-
-@media screen and (max-width:480px) {
+/*mobile*/
+@media screen and (width<=480px) {
   .cards {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     padding: 0;
