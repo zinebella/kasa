@@ -78,3 +78,9 @@
        font-size: 12px;
     }
 }
+
+@media only screen and (width<=480px) {
+    .SlideCount{
+        display: none;
+    }
+}
