@@ -76,14 +76,8 @@ import "../Styles/Logement.css";
                   <Collapse title="Equipements" content={equipements} />
               </div>
               
-              
-      
-             
-    
     </div>
             
-              
-
   )
 }
 
